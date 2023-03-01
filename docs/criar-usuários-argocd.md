@@ -40,7 +40,7 @@ Como mostra a imagem abaixo:
 Com o IP do pod/argocd-server em mãos iremos fazer login no ArgoCd via pod, para isso iremos rodar o comando: 
 `argocd login 172.20.174.101`
 
-**Obs** ele irá pedir a senha de admin para poder autenticar, tenha essa senha em mãos.
+**Obs**: ele irá pedir a senha de admin para poder autenticar, tenha essa senha em mãos.
 
 Como descreve a imagem abaixo:
 
@@ -49,7 +49,7 @@ Como descreve a imagem abaixo:
 Após login feito iremos fazer o update da senha do usuários que criamos na etapa anterior, para isso rodaremos o comando: 
 `argocd account update-password --account usuário-criado --new-password password`
 
-**Obs** ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
+**Obs**: ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
 
 após adicionarmos a senha do user admin, irá aparcer a seguinte mensagem: Password updated
 que significa que o update da senha foi concluido com sucesso!

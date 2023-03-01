@@ -37,7 +37,7 @@ Como mostra a imagem abaixo:
 
 ![image](https://user-images.githubusercontent.com/93404162/222238320-4622c008-4237-4b33-adeb-cb8e66ac7e3f.png)
 
-Com o IP do pod/argocd-server em mãos iremos fazer login no ArgoCd via pod, para isso iremos rodar o comando : 
+Com o IP do pod/argocd-server em mãos iremos fazer login no ArgoCd via pod, para isso iremos rodar o comando: 
 `argocd login 172.20.174.101`
 
 **Obs** ele irá pedir a senha de admin para poder autenticar, tenha essa senha em mãos.

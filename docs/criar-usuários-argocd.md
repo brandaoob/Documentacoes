@@ -31,14 +31,14 @@ Como mostra a imagem abaixo:
 ![image](https://user-images.githubusercontent.com/93404162/222238320-4622c008-4237-4b33-adeb-cb8e66ac7e3f.png)
 
 Com o IP do pod/argocd-server em mãos iremos fazer login no ArgoCd via pod, para isso iremos rodar o comando : `argocd login 172.20.174.101`
-OBS : ele irá pedir a senha de admin para poder autenticar, tenha essa senha em mãos.
+**Obs** ele irá pedir a senha de admin para poder autenticar, tenha essa senha em mãos.
 Como descreve a imagem abaixo:
 
 ![image](https://user-images.githubusercontent.com/93404162/222238598-a6a35138-8ad3-4b6e-84cc-6a11cf8068da.png)
 
 Após login feito iremos fazer o update da senha do usuários que criamos na etapa anterior, para isso rodaremos o comando: 
 `argocd account update-password --account usuário-criado --new-password password`
-OBS: ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
+**Obs** ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
 após adicionarmos a senha do user admin, irá aparcer a seguinte mensagem: Password updated
 que significa que o update da senha foi concluido com sucesso!
 Como nos mostra a imagem abaixo:

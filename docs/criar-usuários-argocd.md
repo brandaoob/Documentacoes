@@ -6,6 +6,7 @@ Portanto, quando instalamos o argocd no cluster kubernetes, ele cria os yamls no
 
 Edite o ConfigMap argocd-cm adicionando o nome dos usuários e o método que ele irá acessar via web ( nesse caso será via login ), rodaremos o comando: `k edit configmaps argocd-cm` 
 para adicionarmos o nome do usuário e o método de acesso.
+
 como podemos ver um exemplo na imagem abaixo:
 
 ![image](https://user-images.githubusercontent.com/93404162/222238011-68645ba2-1cfe-4052-9832-09ffdafd2446.png)

@@ -36,8 +36,9 @@ Como descreve a imagem abaixo:
 
 ![image](https://user-images.githubusercontent.com/93404162/222238598-a6a35138-8ad3-4b6e-84cc-6a11cf8068da.png)
 
-Após login feito iremos fazer o update da senha do usuários que criamos na etapa anterior, para isso rodaremos o comando : `argocd account update-password --account usuário-criado --new-password password`
-OBS : ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
+Após login feito iremos fazer o update da senha do usuários que criamos na etapa anterior, para isso rodaremos o comando: 
+`argocd account update-password --account usuário-criado --new-password password`
+OBS: ele também irá pedir a senha do usuário admin para prosseguir com a ação requerida, por tanto, tenha essa senha em mãos.
 após adicionarmos a senha do user admin, irá aparcer a seguinte mensagem: Password updated
 que significa que o update da senha foi concluido com sucesso!
 Como nos mostra a imagem abaixo:
